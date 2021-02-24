@@ -209,9 +209,5 @@ namespace PhoneClasses
             }
         }
     }
-
-    public class clsStaff
-    {
-    }
     //this closes the namespace
 }

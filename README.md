@@ -1,2 +1,0 @@
-# PhoneSystem
-Stock management system
