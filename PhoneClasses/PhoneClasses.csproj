@@ -42,7 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsDataConnection.cs" />
+    <Compile Include="clsSupplier.cs" />
+    <Compile Include="DataTable.cs" />
+    <Compile Include="ParameterDirection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCommand.cs" />
+    <Compile Include="SqlCommandBuilder.cs" />
+    <Compile Include="SqlConnection.cs" />
+    <Compile Include="SqlDataAdapter.cs" />
+    <Compile Include="SqlParameter.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
