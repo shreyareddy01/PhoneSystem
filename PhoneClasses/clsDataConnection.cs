@@ -6,8 +6,6 @@ using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Data;
 //using ClassControlLib; -> class lib 
-
-
 namespace PhoneClasses
 
 {

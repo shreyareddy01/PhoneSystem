@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBackOffice", "PhoneBackOffice\PhoneBackOffice.csproj", "{2E9A4EC5-6B85-46D4-8446-05F6EEE61736}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PhonesFrontOffice", "PhonesFrontOffice", "{DD19219A-5A02-4E08-A76C-2F0E82EB8433}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PhonesFrontOffice", "PhonesFrontOffice\", "{DD19219A-5A02-4E08-A76C-2F0E82EB8433}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_6255"
@@ -30,6 +30,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneClasses", "PhoneClasses\PhoneClasses.csproj", "{01D512BE-D7A1-4CC1-A895-F3E4F304165C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone Testing", "Phone Testing\Phone Testing.csproj", "{7CE83474-6B60-46A5-8AAD-4A0F0141FE7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72AD9FF4-83FA-4154-B5E1-94DA1BAC6FB4}"
+	ProjectSection(SolutionItems) = preProject
+		TestSettings1.testsettings = TestSettings1.testsettings
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
