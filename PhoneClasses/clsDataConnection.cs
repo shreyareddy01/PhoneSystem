@@ -5,9 +5,11 @@ using System.Web;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Data;
-
+//using ClassControlLib; -> class lib 
 namespace PhoneClasses
+
 {
+
     public class clsDataConnection
     {
         //connection object used to connect to the database
@@ -211,5 +213,6 @@ namespace PhoneClasses
             }
         }
     }
-    //this closes the namespace
 }
+
+
