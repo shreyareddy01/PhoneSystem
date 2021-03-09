@@ -1,11 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
+using System.Data.SqlClient;
+using System.Data.OleDb;
+using System.Data;
+//using ClassControlLib; -> class lib 
+
 
 namespace PhoneClasses
+
 {
+
     public class clsDataConnection
     {
         //connection object used to connect to the database
@@ -209,9 +215,6 @@ namespace PhoneClasses
             }
         }
     }
-
-    public class clsStaff
-    {
-    }
-    //this closes the namespace
 }
+
+
