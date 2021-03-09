@@ -10,8 +10,10 @@ namespace Phone_Testing
         [TestMethod]
         public void InstanceOK()
         {
-            clsStaff AStaff = new clsStaff();
-            Assert.IsNotNull(AStaff);
+            //create an instance of the class we want to create
+            clsStaff AnStaff = new clsStaff();
+            //test to see that it exists
+            Assert.IsNotNull(AnStaff);
         }
     }
 }
